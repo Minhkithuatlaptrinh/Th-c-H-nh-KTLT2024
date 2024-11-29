@@ -1,0 +1,11 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  n=int(input("Enter a number---->"))
+
+if n 20:
+
+print ("EVEN Number"):
+
+else:
+
+print ("ODD Number");
