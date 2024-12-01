@@ -1,0 +1,8 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+def all_even_digits (num):
+
+return all (int (digit) %2==0 for digit in str(num)) 
+even_digit_numbers [num for num in range (1000, 3001) if all even_digits (num)]
+print("Các số có tất cả các chữ số là số chẵn từ 1000 đến 3000 là :")
+print(','.join(map(str, even_digit_numbers)))
