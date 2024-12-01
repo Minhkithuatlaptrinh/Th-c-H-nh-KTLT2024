@@ -1,0 +1,13 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  nput_string = input("Nhập chuỗi các số nhị phân 4 chữ số, phân tách bởi dấu phẩy) 
+  binary_numbers = input_string.split(',') 
+  divisible by 5 = []
+
+for binary in binary_numbers:
+
+decimal int (binary, 2)
+
+if decimal %50: divisible_by_5.append (binary)
+
+print("Các số nhị phân chia hết cho 5 là:", ','.join(divisible_by_5))​21:30/-strong/-heart:>:o:-((:-hĐã gửi Xem trước khi gửiThả Files vào đây để xem lại trước khi gửi
