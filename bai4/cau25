@@ -1,0 +1,11 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  input_string = input("Nhập một chuỗi các số, tách nhau bởi dấu cách: ")
+
+numbers list (map(int, input_string.split()))
+
+odd_numbers = [num for num in numbers if num % 2 != 0]
+
+print("Các số lẻ trong danh sách là:")
+
+print (odd_numbers)
