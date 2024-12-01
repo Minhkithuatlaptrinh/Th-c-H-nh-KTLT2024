@@ -1,0 +1,12 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  def main():
+print("Mảng được tạo:")
+
+print (array
+
+reversed_array = array[::-1]
+
+print("Mảng đảo ngược:")
+
+print (reversed_array)
