@@ -1,0 +1,15 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  #mymodule.py
+
+def sort_list(arr):
+
+return sorted(arr)
+
+def find max(arr):
+
+return max(arr)
+
+def find min(arr):
+
+return min(arr)
