@@ -1,0 +1,11 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  i=1;
+
+for j in range (2,10):
+
+print(":",i,"j:",j)
+
+print(i, "/",j)
+
+print (i/j):
