@@ -1,0 +1,12 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+input_string = input("Nhập một câu: ") 
+  letter_count = 0 
+  digit_count = 0 
+  for char in input_string: 
+if char.isalpha():
+letter count += 1 
+  elif char.isdigit(): 
+  digit count += 1 
+  print (f"số chữ cái: (letter_count}") 
+print (f"số chữ số: (digit _count}")  
