@@ -1,0 +1,21 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+input_string = input("Nhập một câu: ")
+
+uppercase count = 0
+
+lowercase count = 0
+
+for char in input_string:
+
+if char.isupper():
+
+uppercase _count += 1
+
+elif char.islower():
+
+lowercase count += 1
+
+print(f"số chữ hoa: ( uppercase_count}")
+
+print(f"số chữ thường: {lowercase count}")  
