@@ -1,0 +1,16 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+ #File: search_module.py
+
+def binary search (arr, x):
+
+"""Hàm tìm kiếm nhị phân""" low = 0 high len (arr) - 1 mid = 0
+
+while low <= high: mid (high + low) // 2
+
+if arr[mid] < x: low mid + 1 elif arr[mid] > x: high 
+else: mid-1
+
+return True
+
+return False​
