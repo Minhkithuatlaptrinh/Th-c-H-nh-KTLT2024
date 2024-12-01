@@ -1,0 +1,7 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  n = [1, 2, 3, 4, 5]
+if 1 in n:
+print("Có 1 trong list.")
+else:
+print("Không có 1 trong list.")
