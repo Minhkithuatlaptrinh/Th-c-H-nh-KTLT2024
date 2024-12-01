@@ -1,0 +1,8 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+ # File: search module.py
+def Sequential Search (dlist, item):
+"""Hàm tìm kiếm tuyến tính""" 
+  for index, element in enumerate (dlist): 
+if element == item: 
+return (True, index)​
