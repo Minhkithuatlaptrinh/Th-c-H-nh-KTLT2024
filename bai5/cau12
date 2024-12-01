@@ -1,0 +1,17 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+import numpy as np
+
+student ids = np.array([102, 104, 101, 103]) heights np.array([170, 180, 160, 175])
+
+ np.lexsort((heights, student ids))
+
+print("Chỉ số nguyên mô tả thứ tự sắp xếp: ") 
+print(indices)
+
+sorted_ids student_ids [indices] 
+sorted_heights heights [indices]
+
+print("Dữ liệu sau khi sắp xếp: ") 
+  for i in range (len (sorted_ids)): 
+print (f"ID: {sorted_ids[i]), Height: (sorted_heights[i]}")
