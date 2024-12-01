@@ -1,0 +1,7 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+chuoi input('Nhập chuỗi : ‘)
+
+chuoi_moi = ".join([ch for ch in chuoi if not ch.isdigit()))
+
+print('Chuỗi mới:', chuoi moi)
