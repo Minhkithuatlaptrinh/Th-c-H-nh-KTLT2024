@@ -1,0 +1,35 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  #File: list utils.py
+
+def sort list(1st):
+
+***sắp xếp danh sách theo thứ tự tăng dần
+
+return sorted(1st)
+
+def find max(1st):
+
+***Tìm phân tử lớn nhất trong danh sách"""
+
+return max (1st)
+
+def find min (1st):
+
+***Tìm phần từ nhỏ nhất trong danh sách"""
+
+return min(1st)
+
+def find max_index(1st):
+
+"Tim vị trí của phần tử lớn nhất trong danh sách
+
+max_value max (1st)
+
+return 1st.index (max value)
+
+def find min index (1st):
+
+im vị trí của phần tử nhớ nhất trong danh sách min value min (1st)
+
+return 1st.index (min_value)
