@@ -1,0 +1,5 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  original_list = [1, 2, 3, 4, 5]  
+  new_list = original list[1-1]
+print("Danh sách mới là:", new_list)
