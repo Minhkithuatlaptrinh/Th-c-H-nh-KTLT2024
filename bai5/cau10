@@ -1,0 +1,19 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+ #File: sorting_module.py
+
+def bubblesort (nlist):
+
+***Hàm sắp xếp nổi bọt"""
+
+n len (nlist)
+
+for i in range(n):
+
+swapped False
+
+for j in range(0, n-i-1): if nlist[j] > nlist[j+1]: nlist[j], nlist[j+1]= nlist[j+1], nlist[j] swapped 
+if not swapped: 
+break 
+
+return nlist 
