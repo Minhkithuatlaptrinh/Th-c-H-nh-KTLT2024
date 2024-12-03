@@ -1,9 +1,13 @@
 print("Sinh vien : Nguyen Hong Minh")
 print("Ma so SV: 235752021610112")
-class Circle(object):
-    def __init__(self, r):
-        self.radius = r
-    def area(self):
-        return self.radius**2 * 3.14
-aCircle = Circle(2)
-print(aCircle.area())
+class Hinhchunhat:
+    def __init__(self, chieu_dai, chieu_rong):
+        self.chieu_dai = chieu_dai
+        self.chieu_rong = chieu_rong
+    
+    def dientich(self):
+        return self.chieu_dai * self.chieu_rong
+
+hinhchunhat = Hinhchunhat(5, 3)
+
+print("Diện tích của hình chữ nhật là:", hinhchunhat.dientich())
