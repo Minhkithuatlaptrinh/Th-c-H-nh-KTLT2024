@@ -1,0 +1,16 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+  class ReverseWords:
+    def __init__(self, sentence):
+        self.sentence = sentence
+    
+    def reverse(self):
+        words = self.sentence.split()
+        reversed_words = words[::-1]
+        reversed_sentence = ' '.join(reversed_words)
+        return reversed_sentence
+
+sentence = 'hello .py'
+reverse_words = ReverseWords(sentence)
+
+print("Chuỗi sau khi đảo ngược từ từng chữ là:", reverse_words.reverse())
