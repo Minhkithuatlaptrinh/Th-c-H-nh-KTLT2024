@@ -1,0 +1,19 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112") 
+def read_and_reverse_file(file_path):
+    try:
+       
+        with open(file_path, 'r') as file:
+            content = file.read()
+        
+        reversed_content = content[::-1]
+        
+      
+        print(reversed_content)
+    
+    except FileNotFoundError:
+        print(f"Không tìm thấy tệp: {file_path}")
+
+file_path = input("Nhập đường dẫn tới tệp: ")
+
+read_and_reverse_file(file_path)
