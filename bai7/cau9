@@ -1,0 +1,39 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+def copy_file_content(source_file, destination_file):
+    try:
+        with open(source_file, 'r') as src:
+            content = src.read()
+        with open(destination_file, 'w') as dst:
+            dst.write(content)
+        
+        print(f"Đã sao chép nội dung từ {source_file} sang {destination_file}")
+    
+    except FileNotFoundError:
+        print(f"Không tìm thấy tệp: {source_file}")
+    except IOError:
+        print(f"Đã xảy ra lỗi khi sao chép nội dung từ {source_file} sang {destination_file}")
+
+source_file_path = input("Nhập đường dẫn tới tệp nguồn: ")
+destination_file_path = input("Nhập đường dẫn tới tệp đích: ")
+
+copy_file_content(source_file_path, destination_file_path)
+
+def write_list_to_file(file_path, data_list):
+    try:
+    
+        with open(file_path, 'w') as file:
+            for item in data_list:
+                file.write(f"{item}\n")
+        print(f"Đã ghi danh sách vào tệp {file_path}")
+    except IOError:
+        print("Lỗi: Không thể ghi vào tệp")
+
+data_list = ['Dòng 1', 'Dòng 2', 'Dòng 3', 'Dòng 4']
+
+
+file_path = input("Nhập đường dẫn tới tệp: ")
+
+write_list_to_file(file_path, data_list)
+
+
