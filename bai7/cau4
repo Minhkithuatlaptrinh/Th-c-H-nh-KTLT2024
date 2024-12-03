@@ -1,0 +1,15 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+from itertools import islice
+
+def file_read_from_head(fname, nlines):
+    with open(fname, 'r') as f:
+        for line in islice(f, nlines):
+            print(line.strip())
+
+
+file_path = input("Nhập đường dẫn tới tệp: ")
+num_lines = int(input("Nhập số dòng cần đọc: "))
+
+
+file_read_from_head(file_path, num_lines)
