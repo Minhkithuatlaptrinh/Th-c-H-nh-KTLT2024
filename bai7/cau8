@@ -1,0 +1,18 @@
+print("Sinh vien : Nguyen Hong Minh")
+print("Ma so SV: 235752021610112")
+def write_list_to_file(file_path, data_list):
+    try:
+    
+        with open(file_path, 'w') as file:
+            for item in data_list:
+                file.write(f"{item}\n")
+        print(f"Đã ghi danh sách vào tệp {file_path}")
+    except IOError:
+        print("Lỗi: Không thể ghi vào tệp")
+
+data_list = ['Dòng 1', 'Dòng 2', 'Dòng 3', 'Dòng 4']
+
+
+file_path = input("Nhập đường dẫn tới tệp: ")
+
+write_list_to_file(file_path, data_list)
