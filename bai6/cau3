@@ -1,14 +1,21 @@
 print("Sinh vien : Nguyen Hong Minh")
 print("Ma so SV: 235752021610112")
-class Hinhchunhat:
-    def __init__(self, chieu_dai, chieu_rong):
-        self.chieu_dai = chieu_dai
-        self.chieu_rong = chieu_rong
-    
-    def dientich(self):
-        return self.chieu_dai * self.chieu_rong
+class Nguoi(object):
+    def getGender(self):
+        return "Unknown"
 
-hinhchunhat = Hinhchunhat(5, 3)
+class Nam(Nguoi):
+    def getGender(self):
+        return "Nam"
 
-print("Diện tích của hình chữ nhật là:", hinhchunhat.dientich())
+class Nu(Nguoi):
+    def getGender(self):
+        return "Nữ"
+
+aNam = Nam()
+aNu = Nu()
+
+print(aNam.getGender())  # Kết quả sẽ là "Nam"
+print(aNu.getGender())   # Kết quả sẽ là "Nữ"
+
   
